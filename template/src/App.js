@@ -1,14 +1,15 @@
-import React from "react";
+import React from "react"
 import "./App.css";
-import logo from "./img/logo.png";
+import { Header } from "./components/Header"
+import { Main } from "./components/Main"
+import { Footer } from "./components/Footer"
 
 export default function App() {
-  
-
-  return (
+    return (
     <div className="App">
-      
-     <h1>Aula - Componentes React</h1>
+     <Header/>
+     <Main/>
+     <Footer/>
     </div>
   );
 }

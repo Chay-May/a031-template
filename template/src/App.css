@@ -1,6 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
 }
 
+.header{
+  background-color: #fcb824;
+}
 
+.header img{
+  height: 15vh;
+}
+
+.main{
+  height: 70vh;
+}
+
+.footer{
+  background-color: #eeee13;
+  height: 15vh
+}
